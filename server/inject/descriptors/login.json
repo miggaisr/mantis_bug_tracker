@@ -9,8 +9,7 @@
     "submit": {
       "type": "action",
       "selector": ".button",
-      "control": "action.button",
-      "selectContains": "Login"
+      "control": "action.button"
     },
     "password": {
       "type": "string",
