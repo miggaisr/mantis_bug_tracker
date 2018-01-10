@@ -1,1 +1,6 @@
-{}
+{
+  "login": {
+    "type": "object",
+    "properties": {}
+  }
+}

@@ -5,6 +5,21 @@
       "type": "identifier",
       "selector": "body",
       "control": "exists"
+    },
+    "submit": {
+      "type": "action",
+      "selector": "[name=\"password\"]",
+      "control": "text"
+    },
+    "password": {
+      "type": "string",
+      "selector": "[name=\"password\"]",
+      "control": "text"
+    },
+    "username": {
+      "type": "string",
+      "selector": "[name=\"username\"]",
+      "control": "text"
     }
   },
   "connect": [
@@ -16,5 +31,7 @@
         "login"
       ]
     }
-  ]
+  ],
+  "selector": "button",
+  "selectContains": "Login"
 }
