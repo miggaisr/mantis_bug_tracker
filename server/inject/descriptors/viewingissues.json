@@ -12,7 +12,29 @@
       "selectorAll": "#buglist tr[bgcolor]",
       "items": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "id": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 3
+          },
+          "category": {
+            "type": "string",
+            "selector": "a",
+            "control": "action.link"
+          },
+          "severity": {
+            "type": "string",
+            "selector": "a",
+            "control": "action.link"
+          },
+          "summary": {
+            "type": "string",
+            "selector": "a",
+            "control": "action.link"
+          }
+        }
       }
     }
   },
