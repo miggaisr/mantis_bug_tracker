@@ -24,7 +24,7 @@
     "warning": {
       "type": "string",
       "selector": "font",
-      "control": "exists",
+      "control": "property.innerText",
       "selectContains": "Admin directory should be removed"
     }
   },
