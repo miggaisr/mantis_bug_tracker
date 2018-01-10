@@ -21,8 +21,9 @@
           },
           "category": {
             "type": "string",
-            "selector": "a",
-            "control": "action.link"
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 6
           },
           "severity": {
             "type": "string",
