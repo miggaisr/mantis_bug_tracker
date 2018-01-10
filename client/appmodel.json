@@ -95,8 +95,7 @@
           }
         },
         "update": {
-          "type": "change",
-          "dynamic": false
+          "type": "none"
         }
       }
     }
