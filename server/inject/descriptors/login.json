@@ -20,6 +20,12 @@
       "type": "string",
       "selector": "[name=\"username\"]",
       "control": "text"
+    },
+    "warning": {
+      "type": "string",
+      "selector": "font",
+      "control": "exists",
+      "selectContains": "Admin directory should be removed"
     }
   },
   "connect": [
