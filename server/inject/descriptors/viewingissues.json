@@ -6,6 +6,14 @@
       "selector": "body",
       "control": "exists",
       "selectContains": "Viewing Issues"
+    },
+    "issueslist": {
+      "type": "array",
+      "selectorAll": "#buglist tr[bgcolor]",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     }
   },
   "connect": []
