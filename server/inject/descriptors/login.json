@@ -8,8 +8,9 @@
     },
     "submit": {
       "type": "action",
-      "selector": "[name=\"password\"]",
-      "control": "text"
+      "selector": "button",
+      "control": "action.button",
+      "selectContains": "Login"
     },
     "password": {
       "type": "string",
