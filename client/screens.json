@@ -22,13 +22,6 @@
       "sourceScreenId": "app.multiselect"
     },
     {
-      "id": "login",
-      "name": "login",
-      "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank",
-      "model": "login"
-    },
-    {
       "id": "logincool",
       "name": "Login-Cool",
       "sourceScreenId": "app.login.logincool",
