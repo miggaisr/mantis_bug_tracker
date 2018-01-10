@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "isViewingIssues": {
+      "type": "identifier",
+      "selector": "body",
+      "control": "exists",
+      "selectContains": "Viewing Issues"
+    }
+  },
+  "connect": []
+}
