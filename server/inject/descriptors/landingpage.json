@@ -6,6 +6,12 @@
       "selector": "body",
       "control": "exists",
       "selectContains": "Assigned to Me (Unresolved)"
+    },
+    "submit": {
+      "type": "action",
+      "selector": ".subtle",
+      "control": "action.link",
+      "selectContains": "Assigned to Me (Unresolved)"
     }
   },
   "connect": []
