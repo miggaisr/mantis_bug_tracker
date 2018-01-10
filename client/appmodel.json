@@ -1,8 +1,4 @@
 {
-  "login": {
-    "type": "object",
-    "properties": {}
-  },
   "logincool": {
     "type": "object",
     "comment": "Login",
