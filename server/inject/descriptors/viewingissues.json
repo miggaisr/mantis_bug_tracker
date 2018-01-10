@@ -29,7 +29,7 @@
             "type": "string",
             "selector": "td",
             "control": "property.innerText",
-            "selectIndex": 6
+            "selectIndex": 7
           },
           "summary": {
             "type": "string",
