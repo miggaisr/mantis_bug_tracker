@@ -1,8 +1,14 @@
 {
-  "name": "mantis_bug_tracker",
-  "description": "Mantis bug tracker",
+  "name": "stencil_orders",
+  "description": "Order stencil app",
   "defaultLayout": "phone-portrait",
   "previewToken": "e962f3a9",
   "uiCommonVersion": "5.2.1",
-  "creatorId": "miggaisr"
+  "creatorId": "miggaisr",
+  "id": "mantis_bug_tracker",
+  "previewImageURL": "/previews/e962f3a9-mantis_bug_tracker/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/miggaisr/mantis_bug_tracker",
+  "creatorName": "Gadi Israeli",
+  "sdks": []
 }
